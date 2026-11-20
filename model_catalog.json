@@ -1,0 +1,32 @@
+[
+  {
+    "name": "llama-3.1-8b",
+    "wh_per_query": 0.443,
+    "accuracy": { "text": 0.72, "code": 0.60 },
+    "latency_s": 2.5
+  },
+  {
+    "name": "gpt-4o-mini",
+    "wh_per_query": 1.9,
+    "accuracy": { "text": 0.84, "code": 0.78 },
+    "latency_s": 1.8
+  },
+  {
+    "name": "gemini-2.0-flash",
+    "wh_per_query": 1.2,
+    "accuracy": { "text": 0.82, "code": 0.75 },
+    "latency_s": 2.0
+  },
+  {
+    "name": "claude-3.5-haiku",
+    "wh_per_query": 4.5,
+    "accuracy": { "text": 0.86, "code": 0.82 },
+    "latency_s": 2.2
+  },
+  {
+    "name": "gpt-4o",
+    "wh_per_query": 2.9,
+    "accuracy": { "text": 0.90, "code": 0.88 },
+    "latency_s": 2.8
+  }
+]
